@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'lato', sans-serif;
+  }
+
+  .aboutIntroContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px 50px 20px;
+    background-image: url(../img/mobileIntrobg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 890px;
+    justify-content: space-evenly;
+  }
+
+  .aboutNav {
+    position: relative;
+    width: 50px;
+    height: 41px;
+    margin-left: 5px;
+  }
+  
+  .rect {
+    position: absolute;
+    display: block;
+    width: 35px;
+    height: 7px;
+    background-color: #272a31;
+  }
+  
+  .rec2 {
+    margin-top: 10px;
+  }
+  
+  .rec3 {
+    margin-top: 20px;
+  }
+
+  .aboutHello{
+    color: #ec5242;
+    font-size: 1.75rem;
+    font-weight: normal;
+  }
+
+  .aboutIntroH1{
+    font-weight: 900;
+    font-size: 3.75rem;
+    color: #ec5242;
+  }
+
+  .aboutTechSphere{
+    border: 1px solid #d3d3d3;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #272a31;
+  }
+
+  .contactInfo{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #272a31;
+    align-self: center;
+  }
+
+  .contactEmail{
+      color: #272a31;
+      font-size: 1rem;
+      align-self: center;
+      font-weight: bold;
+  }
+
+  .logoSection{
+      padding: 30px;
+      border-bottom: 1px solid #272a31;
+  }
+
+  .logoContainer{
+      display: flex;
+      flex-direction: column;
+      height: 350px;
+      align-items: center;
+      justify-content: space-between;      
+  }
+  
+  .logoContainer > hr{
+    border: 1px solid #ec5242;
+    width: 95px;
+    margin-top: -85px;
+  }
+
+  .logo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: aqua;
+      padding: 10px;
+      border: 2px outset #000;
+      border-radius: 3px;
+  }
+
+  .logo > p{
+      color: tomato;
+      font-size: 1.5rem;
+      font-weight: 900;
+  }
+
+  .memories{
+      padding: 30px 20px;
+  }
+
+  .memoriesContainer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+  }
+
+  .memoriesContainer > hr {
+    border: 1px solid #ec5242;
+    width: 95px;
+    margin: -20px;
+  }
+
+  .memorieslink{
+      background-image: url(../img/memories.jpeg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 275px;
+      height: 183px;
+      color: #ffffff;
+      text-decoration: none;
+  }
+
+  .memoriesDiv{      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #ec5242;
+      height: 100%;
+      opacity: 0.9;
+  }
+
+  .partner{
+      background-color: #272a31;
+      padding: 30px;
+  }
+
+  .partner > div{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: #ffffff;
+
+  }
+
+  .partner > div > hr{
+    border: 1px solid #ec5242;
+    width: 45px;
+  }
+
+  .width{
+      width: 120px;
+  }
+
+  .partnerContainer{
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 30px;
+  }
+
+  .footerContainer{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 5px;
+      margin-bottom: 25px;
+  }
