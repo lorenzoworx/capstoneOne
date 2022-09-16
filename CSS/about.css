@@ -1,190 +1,189 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: 'lato', sans-serif;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-  .aboutIntroContainer {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 0 20px 50px 20px;
-    background-image: url(../img/mobileIntrobg.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    height: 890px;
-    justify-content: space-evenly;
-  }
+body {
+  font-family: 'lato', sans-serif;
+}
 
-  .aboutNav {
-    position: relative;
-    width: 50px;
-    height: 41px;
-    margin-left: 5px;
-  }
-  
-  .rect {
-    position: absolute;
-    display: block;
-    width: 35px;
-    height: 7px;
-    background-color: #272a31;
-  }
-  
-  .rec2 {
-    margin-top: 10px;
-  }
-  
-  .rec3 {
-    margin-top: 20px;
-  }
+.aboutIntroContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 20px 50px 20px;
+  background-image: url(../img/mobileIntrobg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 890px;
+  justify-content: space-evenly;
+}
 
-  .aboutHello{
-    color: #ec5242;
-    font-size: 1.75rem;
-    font-weight: normal;
-  }
+.aboutNav {
+  position: relative;
+  width: 50px;
+  height: 41px;
+  margin-left: 5px;
+}
 
-  .aboutIntroH1{
-    font-weight: 900;
-    font-size: 3.75rem;
-    color: #ec5242;
-  }
+.rect {
+  position: absolute;
+  display: block;
+  width: 35px;
+  height: 7px;
+  background-color: #272a31;
+}
 
-  .aboutTechSphere{
-    border: 1px solid #d3d3d3;
-    background-color: #ffffff;
-    padding: 20px;
-    font-size: 1rem;
-    font-weight: normal;
-    color: #272a31;
-  }
+.rec2 {
+  margin-top: 10px;
+}
 
-  .contactInfo{
-    font-size: 1rem;
-    font-weight: normal;
-    color: #272a31;
-    align-self: center;
-  }
+.rec3 {
+  margin-top: 20px;
+}
 
-  .contactEmail{
-      color: #272a31;
-      font-size: 1rem;
-      align-self: center;
-      font-weight: bold;
-  }
+.aboutHello {
+  color: #ec5242;
+  font-size: 1.75rem;
+  font-weight: normal;
+}
 
-  .logoSection{
-      padding: 30px;
-      border-bottom: 1px solid #272a31;
-  }
+.aboutIntroH1 {
+  font-weight: 900;
+  font-size: 3.75rem;
+  color: #ec5242;
+}
 
-  .logoContainer{
-      display: flex;
-      flex-direction: column;
-      height: 350px;
-      align-items: center;
-      justify-content: space-between;      
-  }
-  
-  .logoContainer > hr{
-    border: 1px solid #ec5242;
-    width: 95px;
-    margin-top: -85px;
-  }
+.aboutTechSphere {
+  border: 1px solid #d3d3d3;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 1rem;
+  font-weight: normal;
+  color: #272a31;
+}
 
-  .logo{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: aqua;
-      padding: 10px;
-      border: 2px outset #000;
-      border-radius: 3px;
-  }
+.contactInfo {
+  font-size: 1rem;
+  font-weight: normal;
+  color: #272a31;
+  align-self: center;
+}
 
-  .logo > p{
-      color: tomato;
-      font-size: 1.5rem;
-      font-weight: 900;
-  }
+.contactEmail {
+  color: #272a31;
+  font-size: 1rem;
+  align-self: center;
+  font-weight: bold;
+}
 
-  .memories{
-      padding: 30px 20px;
-  }
+.logoSection {
+  padding: 30px;
+  border-bottom: 1px solid #272a31;
+}
 
-  .memoriesContainer{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 30px;
-  }
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  justify-content: space-between;
+}
 
-  .memoriesContainer > hr {
-    border: 1px solid #ec5242;
-    width: 95px;
-    margin: -20px;
-  }
+.logoContainer > hr {
+  border: 1px solid #ec5242;
+  width: 95px;
+  margin-top: -85px;
+}
 
-  .memorieslink{
-      background-image: url(../img/memories.jpeg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 275px;
-      height: 183px;
-      color: #ffffff;
-      text-decoration: none;
-  }
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  padding: 10px;
+  border: 2px outset #000;
+  border-radius: 3px;
+}
 
-  .memoriesDiv{      
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: #ec5242;
-      height: 100%;
-      opacity: 0.9;
-  }
+.logo > p {
+  color: tomato;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
 
-  .partner{
-      background-color: #272a31;
-      padding: 30px;
-  }
+.memories {
+  padding: 30px 20px;
+}
 
-  .partner > div{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      color: #ffffff;
+.memoriesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
 
-  }
+.memoriesContainer > hr {
+  border: 1px solid #ec5242;
+  width: 95px;
+  margin: -20px;
+}
 
-  .partner > div > hr{
-    border: 1px solid #ec5242;
-    width: 45px;
-  }
+.memorieslink {
+  background-image: url(../img/memories.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 275px;
+  height: 183px;
+  color: #fff;
+  text-decoration: none;
+}
 
-  .width{
-      width: 120px;
-  }
+.memoriesDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ec5242;
+  height: 100%;
+  opacity: 0.9;
+}
 
-  .partnerContainer{
-      display: flex;
-      gap: 20px;
-      align-items: center;
-      justify-content: center;
-      margin-top: 30px;
-  }
+.partner {
+  background-color: #272a31;
+  padding: 30px;
+}
 
-  .footerContainer{
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      padding: 5px;
-      margin-bottom: 25px;
-  }
+.partner > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+.partner > div > hr {
+  border: 1px solid #ec5242;
+  width: 45px;
+}
+
+.width {
+  width: 120px;
+}
+
+.partnerContainer {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  margin-bottom: 25px;
+}
