@@ -8,6 +8,10 @@ body {
   font-family: 'lato', sans-serif;
 }
 
+.hide {
+  display: none;
+}
+
 .deskSection {
   display: none;
 }
@@ -221,6 +225,12 @@ body {
 .menuContainer a {
   font-size: 1.3rem;
   font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.menuContainer a:hover {
+  color: #ec5242;
+  border-bottom: 2px solid #ec5242;
 }
 
 .menuContainer li {
@@ -231,6 +241,10 @@ body {
 @media screen and (min-width: 769px) {
   .deskSection {
     display: block;
+  }
+
+  .topBarUl a {
+    padding-bottom: 10px;
   }
 
   .aboutNav {
@@ -269,9 +283,18 @@ body {
     color: #272a31;
   }
 
+  #about {
+    color: #ec5242;
+  }
+
   .topNavContainerUl > li > a {
     text-decoration: none;
     color: #d3d3d3;
+  }
+
+  .topBarUl a:hover {
+    color: #ec5242;
+    border-bottom: 2px solid #ec5242;
   }
 
   .topBarContainer {
