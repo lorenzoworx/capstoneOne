@@ -20,13 +20,14 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 0 20px 50px 20px;
+  padding: 30px 20px 50px 20px;
   background-image: url(../img/mobileIntrobg.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  height: 890px;
-  justify-content: space-evenly;
+  height: auto;
+  justify-content: start;
+  gap: 40px;
 }
 
 .aboutNav {
@@ -72,6 +73,7 @@ body {
   font-size: 1rem;
   font-weight: normal;
   color: #272a31;
+  width: 75%;
 }
 
 .contactInfo {
@@ -96,15 +98,15 @@ body {
 .logoContainer {
   display: flex;
   flex-direction: column;
-  height: 350px;
+  height: 240px;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
+  gap: 20px;
 }
 
 .logoContainer > hr {
   border: 1px solid #ec5242;
   width: 95px;
-  margin-top: -85px;
 }
 
 .logo {
@@ -201,7 +203,6 @@ body {
   align-items: center;
   justify-content: space-evenly;
   padding: 5px;
-  margin-bottom: 25px;
 }
 
 .mobileMenu {
@@ -303,9 +304,10 @@ body {
     display: flex;
     padding: 0 4vw;
     align-self: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: #fff;
     align-items: center;
+    gap: 9%;
   }
 
   .topBarUl {
@@ -330,6 +332,8 @@ body {
 
   .memoriesDiv1 {
     flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
 
   .mobileMenu {
