@@ -266,6 +266,7 @@ body {
   font-size: 1.3rem;
   font-weight: 500;
   padding-bottom: 10px;
+  text-decoration: none;
 }
 
 .menuContainer a:hover {
@@ -276,6 +277,10 @@ body {
 .menuContainer li {
   list-style: none;
   margin-bottom: 20px;
+}
+
+.home {
+  color: #ec5242;
 }
 
 @media screen and (min-width: 769px) {

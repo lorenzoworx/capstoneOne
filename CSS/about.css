@@ -226,6 +226,7 @@ body {
   font-size: 1.3rem;
   font-weight: 500;
   padding-bottom: 10px;
+  text-decoration: none;
 }
 
 .menuContainer a:hover {
