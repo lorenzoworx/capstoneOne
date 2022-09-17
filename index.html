@@ -11,6 +11,50 @@
 </head>
 <body>
     <main>
+        <section class="mobileMenu hide">
+            <div class="menuContainer">
+                <ul>
+                    <li> <a>Home</a> </li>
+                    <li> <a>About</a> </li>
+                    <li> <a>Program</a> </li>
+                    <li> <a>Join</a> </li>
+                    <li> <a>Sponsor</a> </li>
+                    <li> <a>News</a> </li>
+                     <!-- 5 times
+                    height 100% 
+                    width 40% -->
+                </ul>
+            </div>
+        </section>
+        <section class="deskSection">
+            <div class="topNavContainer">
+                <ul class="topNavContainerUl">
+                    <li><a href="#"><img src="img/github.png" alt=""></a></li>
+                    <li><a href="#"><img src="img/twitter.png" alt=""></a></li>
+                    <li><a href="">Logout</a></li>
+                    <li><a href="">Mypage</a></li>
+                    <li><a href="">English</a></li>
+                </ul>
+            </div>
+            <nav class="deskSection">
+                <div class="topBarContainer">
+                    <a href="index.html">
+                        <div class="logo">
+                            <p>Techsphere</p>
+                            <i class="fa fa-globe fa-3x" aria-hidden="true"></i>
+                        </div>
+                    </a>
+                    <ul class="topBarUl">
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Program</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Sponsor</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                    <button class="topBarBtn">Campaign</button>
+                </div>
+            </nav>
+        </section>
         <section>
             <div class="introContainer">
                 <nav class="mobileNav">
@@ -57,16 +101,17 @@
                         <p>Get oppurtunities to network with CC affiliates around the world, also after the summit</p>
                     </div>
                 </div>
-                <button class="programButton">Join Techsphere Global Summit 2022</button>
+                <button class="programButton mobile">Join Techsphere Global Summit 2022</button>
+                <a href="" class="deskAnchor">SEE THE WHOLE PROGRAM</a>
             </div>
         </section>
 
         <section class="featuredSpeakers">
-            <div class="fSpeakersContainer">
+            <div class="fSpeakersContainer ">
                 <h1 class="fSpeakersH1">Featured Speakers</h1>
                 <hr class="fSpeakersHr">
-                <div>
-                    <div class="speakerContainer">
+                <div class="mobile">
+                    <div class="speakerContainer ">
                         <img src="img/linusTorvalds.png" alt="">
                         <div>
                             <h1>Linus Torvalds</h1>
@@ -77,21 +122,89 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="mobile"> 
                     <div class="speakerContainer">
                         <img src="img/edwardSnowden.png" alt="">
                         <div>
                             <h1>Edward Snowden</h1>
-                            <h2>Former NSA Analys</h2>
+                            <h2>Former NSA Analyst</h2>
                             <hr>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex libero, commodo ac massa non, mollis dictum ante. Morbi eu purus tellus. Maecenas nec turpis.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Repeat div 2 times -->
-                <button class="expandBtn">MORE <i class="fa fa-arrow-down expand" aria-hidden="true"></i></button>
+                
+                <button class="expandBtn mobile">MORE <i class="fa fa-arrow-down expand" aria-hidden="true"></i></button>
+                
+                <div class="deskSection deskSpeakersContainer">                    
+                    <div class="deskSpeakersGrid">
+                        <div class="gridItem speakerContainer">
+                            <img src="img/linusTorvalds.png" alt="">
+                            <div>
+                                <h1>Linus Torvalds</h1>
+                                <h2>Creator of Linux</h2>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex libero, commodo ac massa non, mollis dictum ante. Morbi eu purus tellus. Maecenas nec turpis.</p>                            
+                            </div>
+                        </div>
+
+                        <div class="gridItem speakerContainer">
+                            <img src="img/linusTorvalds.png" alt="">
+                            <div>
+                                <h1>Linus Torvalds</h1>
+                                <h2>Creator of Linux</h2>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex libero, commodo ac massa non, mollis dictum ante. Morbi eu purus tellus. Maecenas nec turpis.</p>                            
+                            </div>
+                        </div>
+
+                        <div class="gridItem speakerContainer">
+                            <img src="img/linusTorvalds.png" alt="">
+                            <div>
+                                <h1>Linus Torvalds</h1>
+                                <h2>Creator of Linux</h2>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex libero, commodo ac massa non, mollis dictum ante. Morbi eu purus tellus. Maecenas nec turpis.</p>                            
+                            </div>
+                        </div>
+
+                        <div class="gridItem speakerContainer">
+                            <img src="img/linusTorvalds.png" alt="">
+                            <div>
+                                <h1>Linus Torvalds</h1>
+                                <h2>Creator of Linux</h2>
+                                <hr>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ex libero, commodo ac massa non, mollis dictum ante. Morbi eu purus tellus. Maecenas nec turpis.</p>                            
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="partner deskSection">
+            <div>
+                <h1>Partners</h1>
+                <hr>
+                <div class="partnerContainer">
+                    <img class="width" src="img/logo-google.png" alt="">
+                    <img class="width" src="img/partner-airbnb.png" alt="">
+                    <img class="width" src="img/partner-mozilla.png" alt="">           
+                </div>
             </div>
         </section>
+     
+        <footer class="deskSection">
+            <div class="footerContainer">
+                <div class="logo">
+                    <p>Techsphere</p>
+                    <i class="fa fa-globe fa-5x" aria-hidden="true"></i>
+                </div>
+                <p>2022 Techsphere Nigeria. <br> All Rights Reserved</p>
+            </div>
+        </footer>
     </main>
 </body>
 </html>

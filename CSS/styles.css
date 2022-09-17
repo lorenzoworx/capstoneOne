@@ -8,6 +8,18 @@ body {
   font-family: 'lato', sans-serif;
 }
 
+.hide {
+  display: none;
+}
+
+.deskSection {
+  display: none;
+}
+
+.deskAnchor {
+  display: none;
+}
+
 .introContainer {
   display: flex;
   flex-direction: column;
@@ -26,6 +38,7 @@ body {
   width: 50px;
   height: 41px;
   margin-left: 5px;
+  z-index: 20;
 }
 
 .rect {
@@ -176,6 +189,13 @@ body {
 
 .speakerContainer > div > h2 {
   font-size: 1rem;
+  color: #ec5242;
+}
+
+.logoContainer > hr {
+  border: 1px solid #ec5242;
+  width: 95px;
+  margin-top: -85px;
 }
 
 .speakerContainer > div > hr {
@@ -192,4 +212,235 @@ body {
   height: 60px;
   background-color: #fff;
   border-style: solid;
+}
+
+.logoSection {
+  padding: 30px;
+  border-bottom: 1px solid #272a31;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  padding: 10px;
+  border: 2px outset #000;
+  border-radius: 3px;
+  color: #272a31;
+}
+
+.logo > p {
+  color: tomato;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.mobileMenu {
+  width: 45%;
+  background-color: #d3d3d3;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  z-index: 10;
+  padding: 200px 15%;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+}
+
+.menuContainer a {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.menuContainer a:hover {
+  color: #ec5242;
+  border-bottom: 2px solid #ec5242;
+}
+
+.menuContainer li {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 769px) {
+  .deskSection {
+    display: block;
+  }
+
+  .topBarUl a {
+    padding-bottom: 10px;
+  }
+
+  .deskAnchor {
+    display: inline;
+  }
+
+  .mobileNav {
+    display: none;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .partner {
+    background-color: #272a31;
+    padding: 30px;
+  }
+
+  .partner > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+
+  .partner > div > hr {
+    border: 1px solid #ec5242;
+    width: 45px;
+  }
+
+  .width {
+    width: 120px;
+  }
+
+  .partnerContainer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+
+  .topNavContainer {
+    background-color: #272a31;
+    color: #d3d3d3;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px 5vw;
+    flex-direction: column;
+  }
+
+  .topNavContainerUl {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .topNavContainerUl > li {
+    list-style: none;
+  }
+
+  .topBarContainer a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .mainProgramContainer > a {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .topNavContainerUl > li > a {
+    text-decoration: none;
+    color: #d3d3d3;
+  }
+
+  .topBarUl a:hover {
+    color: #ec5242;
+    border-bottom: 2px solid #ec5242;
+  }
+
+  .topBarContainer {
+    display: flex;
+    padding: 0 4vw;
+    align-self: center;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+  }
+
+  .topBarUl {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+
+  .topBarUl li {
+    list-style: none;
+  }
+
+  .topBarBtn {
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #ec5242;
+  }
+
+  .introContainer {
+    padding-left: 120px;
+    padding-right: 180px;
+  }
+
+  .introText {
+    width: 80%;
+  }
+
+  .programContainer {
+    flex-direction: column;
+  }
+
+  .cards {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .mainProgramContainer {
+    height: 375px;
+  }
+
+  .fSpeakersContainer {
+    height: auto;
+  }
+
+  .fSpeakersHr {
+    margin-top: 10px;
+  }
+
+  .deskSpeakersContainer {
+    padding: 10px 15%;
+  }
+
+  .deskSpeakersGrid {
+    display: grid;
+    column-gap: 10%;
+    grid-template-columns: 45% 45%;
+    row-gap: 20px;
+  }
+
+  .mobileMenu {
+    display: none;
+  }
 }
