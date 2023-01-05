@@ -70,7 +70,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Find a live demo [Here](https://lorenzoworx.github.io/capstoneOne/) .
+- Find a live demo [Here](https://lorenzoworx.github.io/capstoneOne/) .
+- You can also find  a video presentation [Here](https://www.loom.com/share/a817f18413a94d5b851a2d0d5672a6e2).
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -181,9 +182,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Cindy shin for the original design that inspired this body of work
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

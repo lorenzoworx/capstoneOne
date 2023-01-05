@@ -24,13 +24,12 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 0 20px 50px 20px;
+  padding: 30px 20px 60px 20px;
   background-image: url(../img/mobileIntrobg.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  height: 550px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .mobileNav {
@@ -39,6 +38,7 @@ body {
   height: 41px;
   margin-left: 5px;
   z-index: 20;
+  margin-bottom: 50px;
 }
 
 .rect {
@@ -140,7 +140,7 @@ body {
   width: 40%;
 }
 
-.programContainer > h1 {
+.programContainer > h3 {
   color: #ec5242;
   width: 25%;
 }
@@ -286,7 +286,17 @@ body {
   color: #ec5242;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (max-width: 470px) {
+  .programContainer > h3 {
+    font-size: 1rem;
+  }
+
+  .programContainer > p {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .deskSection {
     display: block;
   }
