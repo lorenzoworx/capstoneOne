@@ -73,7 +73,8 @@ body {
   font-size: 1rem;
   font-weight: normal;
   color: #272a31;
-  width: 75%;
+  align-self: center;
+  width: 80vw;
 }
 
 .contactInfo {
@@ -239,6 +240,20 @@ body {
 .menuContainer li {
   list-style: none;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 478px) {
+  .logoSection { padding: 27px; }
+
+  .logoContainer { height: auto; }
+
+  .logoContainer > h2 { text-align: center; }
+
+  .memoriesContainer > h2 { text-align: center; }
+
+  .partnerContainer { flex-wrap: wrap; }
+
+  .footerContainer > p { text-align: center; }
 }
 
 @media screen and (min-width: 769px) {
