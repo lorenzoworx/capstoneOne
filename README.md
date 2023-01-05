@@ -182,7 +182,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Cindy shin for the original design that inspired this body of work
+I would like to thank Cindy shin for the original design that inspired this body of work.
+The design can be found [Here](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
